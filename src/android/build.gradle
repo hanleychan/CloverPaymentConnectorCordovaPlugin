@@ -1,0 +1,22 @@
+allprojects {
+    repositories {
+        mavenCentral()
+        google()
+        jcenter()
+    }
+}
+
+dependencies {
+  compile fileTree(dir: 'libs', include: ['*.jar'])
+
+  implementation 'com.clover.sdk:clover-android-sdk:262.2'
+  implementation 'com.clover.sdk:clover-android-connector-sdk:262.2'
+}
+
+android {
+  compileSdkVersion 31
+  defaultConfig {
+    minSdkVersion 17
+    targetSdkVersion 25
+  }
+}

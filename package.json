@@ -1,0 +1,20 @@
+{
+  "name": "cordova-plugin-clover",
+  "version": "1.0.0",
+  "description": "Android Clover Plugin",
+  "cordova": {
+    "id": "cordova-plugin-clover",
+    "platforms": [
+      "android"
+    ]
+  },
+  "keywords": [
+    "clover",
+    "ecosystem:cordova",
+    "cordova-ios"
+  ],
+  "author": "Hanley Chan",
+  "license": "ISC"
+}
+  
+
